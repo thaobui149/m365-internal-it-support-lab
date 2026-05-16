@@ -2,96 +2,98 @@
 
 ## Project Overview
 
-This project simulates a small internal IT support environment using Microsoft 365 technologies. The lab was created to practice daily IT support tasks, user administration, troubleshooting, ticket management and basic PowerShell administration.
+This project simulates a small internal IT support environment using Microsoft 365 technologies. The lab focuses on user administration, mailbox management, troubleshooting workflows, ticket handling and basic PowerShell administration.
 
 ---
 
-## Technologies Used
+# Microsoft Entra ID
 
+Created and managed users inside Microsoft Entra ID.
+
+Tasks performed:
+- User creation
+- License assignment
+- Group management
+- MFA configuration
+
+![Entra Users](screenshots/entra-users.png)
+
+---
+
+# MFA Configuration
+
+Configured authentication methods and tested MFA administration scenarios.
+
+![MFA](screenshots/mfa.png)
+
+---
+
+# Exchange Online
+
+Created and managed shared mailboxes and mailbox permissions.
+
+Tasks performed:
+- Shared mailbox configuration
+- Full Access permissions
+- Send As permissions
+
+![Exchange Mailbox](screenshots/exchange-mailbox.png)
+
+---
+
+# Microsoft Teams
+
+Created an internal IT support team with multiple channels for communication and incident handling.
+
+Channels:
+- General
+- Incidents
+- Tickets
+
+![Teams](screenshots/teams.png)
+
+---
+
+# Jira Service Management
+
+Created a small internal IT helpdesk project to simulate ticket workflows.
+
+Example tasks:
+- Outlook mailbox issue
+- User onboarding
+- Teams troubleshooting
+
+![Jira Board](screenshots/jira-board.png)
+
+---
+
+# Jira Ticket Example
+
+Example support ticket related to mailbox administration and onboarding.
+
+![Jira Ticket](screenshots/jira-ticket.png)
+
+---
+
+# PowerShell Administration
+
+Basic PowerShell administration tasks:
+- Connect to Exchange Online
+- Create mailbox
+- Manage permissions
+- User administration
+
+---
+
+# Skills Demonstrated
+
+- Microsoft 365 Administration
 - Microsoft Entra ID
 - Exchange Online
 - Microsoft Teams
 - Jira Service Management
-- PowerShell
-- Microsoft 365 Admin Center
-
----
-
-## Lab Environment
-
-### User Management
-- Created and managed multiple users
-- Assigned Microsoft 365 licenses
-- Configured security groups
-- Configured MFA authentication methods
-
-### Exchange Online
-- Created shared mailboxes
-- Configured mailbox permissions
-- Managed mailbox access rights
-
-### Microsoft Teams
-- Created internal support teams and channels
-- Simulated communication and incident workflows
-
-### Jira Service Management
-- Created internal IT helpdesk project
-- Managed support tickets
-- Simulated onboarding and troubleshooting requests
-
-### PowerShell Administration
-Basic PowerShell tasks:
-- Connect to Exchange Online
-- User mailbox administration
-- User management
-- Mailbox permission management
-
----
-
-## Troubleshooting Scenarios
-
-### Outlook Mailbox Access Issue
-- Investigated mailbox synchronization issues
-- Verified mailbox permissions
-- Tested Outlook Web Access
-
-### Teams Audio Issue
-- Checked Teams settings
-- Verified microphone permissions
-- Simulated user support workflow
-
----
-
-## Screenshots
-
-### Microsoft Entra ID Users
-![Entra Users](screenshots/entra-users.png)
-
-### MFA Configuration
-![MFA](screenshots/mfa.png)
-
-### Exchange Shared Mailbox
-![Exchange](screenshots/exchange-mailbox.png)
-
-### Microsoft Teams
-![Teams](screenshots/teams.png)
-
-### Jira Helpdesk Board
-![Jira](screenshots/jira-board.png)
-
-### Jira Ticket Example
-![Ticket](screenshots/jira-ticket.png)
-
----
-
-## Skills Demonstrated
-
-- Microsoft 365 Administration
-- User & Access Management
-- MFA Configuration
-- Exchange Online Administration
-- Shared Mailbox Management
+- MFA Administration
 - IT Troubleshooting
-- Ticketing Workflow
-- Basic PowerShell Administration
-- Documentation
+- Basic PowerShell
+- Ticket Management
+- User & Access Management
