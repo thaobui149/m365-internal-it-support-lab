@@ -43,12 +43,14 @@ Tasks performed:
 
 # Microsoft Teams
 
-Created an internal IT support team with multiple channels for communication and incident handling.
+Created a Microsoft Teams environment for internal IT support communication.
 
-Channels:
+Channels created:
 - General
 - Incidents
 - Tickets
+
+Used Teams channels to simulate internal communication and support workflows.
 
 ![Teams](screenshots/teams.png)
 
@@ -69,7 +71,13 @@ Example tasks:
 
 # Jira Ticket Example
 
-Example support ticket related to mailbox administration and onboarding.
+Example onboarding ticket for creating a new Microsoft 365 user mailbox using Exchange Online PowerShell.
+
+Tasks performed:
+- Created new user mailbox
+- Assigned temporary password
+- Verified mailbox creation
+- Prepared account for license assignment
 
 ![Jira Ticket](screenshots/jira-ticket.png)
 
@@ -79,9 +87,13 @@ Example support ticket related to mailbox administration and onboarding.
 
 Basic PowerShell administration tasks:
 - Connect to Exchange Online
-- Create mailbox
+- Create new user mailbox
 - Manage permissions
 - User administration
+
+Example PowerShell mailbox creation:
+
+![PowerShell](screenshots/powershell.png)
 
 ---
 
